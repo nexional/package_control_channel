@@ -24,17 +24,6 @@
 			]
 		},
 		{
-			"name": "objc .strings syntax language",
-			"details": "https://github.com/PaNaVTEC/Objc-Strings-Syntax-Language",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ObjC2RubyMotion",
 			"details": "https://github.com/kyamaguchi/SublimeObjC2RubyMotion",
 			"releases": [
@@ -121,7 +110,7 @@
 		},
 		{
 			"name": "Oceanic Next Italic Color Scheme",
-			"details": "https://github.com/SintrumIT/oceanic-next-italic",
+			"details": "https://github.com/Bloemert/oceanic-next-italic",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -136,6 +125,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OctaveSupport",
+			"details": "https://github.com/apjanke/OctaveSupport",
+			"labels": ["language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -192,7 +192,7 @@
 		},
 		{
 			"name": "Odin",
-			"details": "https://github.com/gingerBill/sublime-odin",
+			"details": "https://github.com/odin-lang/sublime-odin",
 			"labels": ["odin", "language syntax"],
 			"releases": [
 				{
@@ -203,7 +203,7 @@
 		},
 		{
 			"name": "Odoo Snippets",
-			"details": "https://github.com/odoo-jarsa/Sublime-Odoo",
+			"details": "https://github.com/Jarsa/Sublime-Odoo",
 			"labels": ["odoo", "snippets"],
 			"releases": [
 				{
@@ -333,19 +333,8 @@
 			]
 		},
 		{
-			"name": "One Dark Color Scheme",
-			"details": "https://github.com/IceTimux/one-dark-sublime-text-3-color-scheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "One Dark Material - Theme",
-			"details": "https://github.com/rafamds/OneDarkMaterial",
+			"details": "https://github.com/huszerldani/OneDarkMaterial",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -724,8 +713,9 @@
 			]
 		},
 		{
-			"name": "OpenEdge ABL",
-			"details": "https://github.com/fator7/OpenEdge-ABL",
+			"name": "OpenERP Snippets",
+			"details": "https://github.com/drdran/Sublime-OpenERP",
+			"labels": ["openerp", "odoo", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -734,13 +724,13 @@
 			]
 		},
 		{
-			"name": "OpenERP Snippets",
-			"details": "https://github.com/drdran/Sublime-OpenERP",
-			"labels": ["openerp", "odoo", "snippets"],
+			"name": "OpenFilesLister",
+			"details": "https://github.com/bantya/OpenFilesLister",
+			"labels": ["shortcut", "open files", "files navigation", "files", "list"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -858,6 +848,18 @@
 			]
 		},
 		{
+			"name": "OpenUri",
+			"details": "https://github.com/jfcherng-sublime/ST-OpenUri",
+			"author": ["jfcherng"],
+			"labels": ["shortcut", "url", "uri", "browser"],
+			"releases": [
+				{
+					"sublime_text": ">=3118",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "OpenVPN",
 			"details": "https://github.com/idleberg/sublime-openvpn",
 			"labels": ["language syntax", "snippets", "build system"],
@@ -901,13 +903,12 @@
 			]
 		},
 		{
-			"name": "Oracle PL SQL",
-			"details": "https://github.com/mulander/oracle.tmbundle",
-			"labels": ["language syntax"],
+			"name": "Oracle_ORA",
+			"details": "https://github.com/MicMun/sublime-ora",
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -987,6 +988,7 @@
 		{
 			"name": "Outroot Color Schemes",
 			"details": "https://github.com/kdar/color-schemes",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -995,8 +997,8 @@
 			]
 		},
 		{
-			"name": "OVH UI-Kit Snippets",
-			"details": "https://github.com/antleblanc/sublime-ovh-ui-kit-snippets",
+			"name": "OverrideEditSettingsDefaultContents",
+			"details": "https://github.com/evandrocoan/OverrideEditSettingsDefaultContents",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1005,8 +1007,19 @@
 			]
 		},
 		{
-			"name": "Owl Color Scheme",
-			"details": "https://github.com/omnus/owl_color_scheme/",
+			"name": "Overwatch Workshop Syntax Highlight",
+			"details": "https://github.com/Mike111177/Overwatch-Workshop-Syntax-Highlight",
+			"labels": ["language syntax", "overwatch"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "OVH UI-Kit Snippets",
+			"details": "https://github.com/antleblanc/sublime-ovh-ui-kit-snippets",
 			"releases": [
 				{
 					"sublime_text": "*",

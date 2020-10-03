@@ -111,6 +111,16 @@
 			]
 		},
 		{
+			"name": "KeepPastedTextSelected",
+			"details": "https://github.com/evandrocoan/KeepPastedTextSelected",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Kellys Color Scheme",
 			"details": "https://github.com/maxhoffmann/Kellys",
 			"labels": ["color scheme"],
@@ -157,8 +167,9 @@
 			]
 		},
 		{
-			"name": "KeyboardSelection",
-			"details": "https://github.com/robertcollier4/keyboardSelectionSublime",
+			"name": "KeyboardNavigation",
+			"previous_names": ["KeyboardSelection"],
+			"details": "https://github.com/robertcollier4/KeyboardNavigation",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -204,8 +215,8 @@
 			"labels": ["keymap", "cheat sheet"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -249,6 +260,28 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Kirikae",
+			"details": "https://github.com/dvcrn/sublime-kirikae",
+			"labels": ["tab"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Kite Python Autocomplete",
+			"details": "https://github.com/kiteco/KiteSublime",
+			"labels": ["auto-complete", "snippets", "python", "documentation"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -327,7 +360,7 @@
 		},
 		{
 			"name": "Kodery",
-			"details": "https://github.com/phuu/sublime.kodery",
+			"details": "https://github.com/tgvashworth/sublime.kodery",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -434,7 +467,7 @@
 		},
 		{
 			"name": "Kroman",
-			"details": "https://github.com/cheunghy/kroman-sublime",
+			"details": "https://github.com/zhangkaiyulw/kroman-sublime",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -448,6 +481,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "KSQL Syntax Highlighter",
+			"details": "https://github.com/blueedgenick/sublime-ksql",
+			"labels": ["language syntax", "KSQL"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -480,6 +524,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Kusto Syntax Highlighter",
+			"details": "https://github.com/mmanela/kusto-sublime",
+			"labels": ["syntax highlight", "kusto", "azure data explorer"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
